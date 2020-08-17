@@ -1,0 +1,28 @@
+<html><head>
+    <meta charset="utf-8">
+            <!--meta inicio-->
+            <meta property="og:title" content="Prova Up">
+            <meta property="og:description" content="Teste de layout.">
+                            <meta property="og:image" itemprop="image" content="https://provaup.com.br/sistema/public/img/EW.jpg">
+                <!-- <meta property="og:image" itemprop="image"  content="provaup.com.br/w01/imagem.jpg"/> -->
+                        <meta property="og:image:type" content="image/jpeg">
+                <meta property="og:image:width" content="600">
+                <meta property="og:image:height" content="900">
+            <!--meta fim-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Base Política </title>
+     <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="https://provaup.com.br/sistema/public/img">
+    <!--para produção-->
+    <!---->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script><style type="text/css"></style>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <!--mascara-->
+     <script src="https://provaup.com.br/sistema/public/js/plugins/mascara/jquery.maskedinput.js"></script>
+     <script src="https://provaup.com.br/sistema/public/vendor/ajaxFormulario/mascaras.js"></script>
+     <!---->
+     <!--fim -->
