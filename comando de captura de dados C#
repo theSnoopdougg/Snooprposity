@@ -1,0 +1,341 @@
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="generator" content="Mobirise v4.4.1, mobirise.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--<link rel="shortcut icon" href="provaup.com.br/sistema/public/assets/images" type="image/x-icon">-->
+        <meta name="description" content="Participe.">
+        <title>Faça sua Parte</title>
+        <link rel="stylesheet" href="provaup.com.br/sistema/public/assets/tether/tether.min.css">
+        <link rel="stylesheet" href="provaup.com.br/sistema/public/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="provaup.com.br/sistema/public/assets/bootstrap/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="provaup.com.br/sistema/public/assets/bootstrap/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="provaup.com.br/sistema/public/assets/socicon/css/styles.css">
+        <link rel="stylesheet" href="provaup.com.br/sistema/public/assets/theme/css/style.css">
+        <link rel="stylesheet" href="provaup.com.br/sistema/public/assets/mobirise/css/mbr-additional.css" type="text/css">
+     <!---->
+     <style>
+    @media only screen and (max-width: 900px) {
+        #banner_grande {
+            display: none;
+        }
+        #banner_mobil {
+            display: block;
+        }
+
+    }
+    @media only screen and (min-width: 901px) {
+        #banner_grande {
+            display: block;
+        }
+        #banner_mobil {
+            display: none;
+        }
+
+    }
+     .imagem_topo{
+         width:99vw;
+         max-width:99vw;
+         max-height:600px;
+         margin-bottom: 5vh;
+     }
+     </style>
+</head> 
+<body> 
+<section class="mbr-section info3" id="info3-15" data-rv-view="307">
+<!-- <section class="mbr-section info3 cid-r3yZJLuMgC" id="info3-15" data-rv-view="307"> -->
+    <!-- <div class="mbr-overlay" style="opacity: 0.0; background-color: rgb(35, 35, 35);"> -->
+            <img src="provaup.com.br/sistema/public/img" class="imagem_topo" alt="imagem topo">
+        <!-- <div class="mbr-overlay" style="opacity: 0.0; background-color: #fff">
+    </div> -->
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="media-container-column title col-12 col-md-10">
+                <h2 class="align-left mbr-bold mbr-white pb-3 mbr-fonts-style display-2" style="color:#000;">provaup!</h2>
+                <h3 class="mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style display-5" style="color:#000;">
+                venha fazer parte da UP.                
+                </h3>
+                <p class="mbr-text align-left mbr-white mbr-fonts-style display-7" style="color:#000;">
+                    <strong>teste VERDE</strong> bem vindo a UP -->
+                </p>                
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="container shadow-sm" style="border:1px solid transparent;" ng-app="appForm">
+                
+        <!--formulario-->
+        <form method="POST" action="provaup.com.br/sistema/indexhp/link_c/formularioComRefresh" id="formCadastro">
+        <!--conteudo oculto -->
+            <input type="hidden" id="codigo" name="codigo" value="3675621">
+        <!-- fim conteudo oculto -->
+        <!--mensagem -->
+        <div class="row pt-2">
+            <div id="mensagem" class=" col-md-10 offset-md-1 alert alert-dismissible" style="display: none;">
+               <p></p>
+            </div>
+        </div>
+        <!--fim mensagem-->
+        <!--informações pessoais-->
+        <div class="row pt-2">
+          <div class="col-md-10 offset-md-1" style="border:1px solid transparent;">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input type="text" name="nome" id="form_name" class="form-control" ng-model="formulario.nome" placeholder="Nome" required="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input type="email" name="email" id="form_email" class="form-control" ng-model="formulario.email" placeholder="Email" required="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input type="text" id="tel1" name="telefone" class="form-control" ng-model="formulario.telefone" placeholder="Telefone" required="">
+                    </div>
+                </div>
+                 
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <select name="sexo" id="form_sexo" class="form-control" required="">
+                                <option value=""> Gênero </option>
+                                <option value="M"> Masculino </option>
+                                <option value="F"> Feminino </option>
+                            </select>
+                    </div>
+                </div>                                                
+            </div>
+                      </div>
+         </div>
+                <div class="row pt-2">
+            <div class="col-md-10 offset-md-1" style="border:1px solid transparent;">
+                <div class="row">
+                    
+                    <div class="col-md-6">          
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Bairro" name="bairro" id="bairro">
+                        </div> 
+                    </div>
+                </div>
+            </div>     
+        </div>
+
+        <div class="row pt-2">
+            <div class="col-md-10 offset-md-1" style="border:1px solid transparent;">
+                <div class="row">
+                    <div class="col-md-3 offset-md-6 col-sm-12">
+                        <input type="submit" id="bt_submit" class="btn btn-block" value="Participar" style="background-color: #23af00;border-color: #089e21;color:#fff;">
+                    </div>
+                    <div class="col-md-3 col-sm-12 pt-1">
+                        <button type="reset" id="resertarBotao" class="btn btn-block btn-danger">Limpar</button>
+                    </div>    
+                </div>
+            </div>     
+        </div>        
+        <!--fim formulario-->
+        </form>
+    </div>
+
+
+
+<section class="cid-r3yZYbFAHj" id="footer1-16" data-rv-view="319">
+<div class="container">    
+    <div class="footer-lower">        
+        <div class="media-container-row mbr-white">
+            <div class="col-sm-6 copyright">
+                <p class="mbr-text mbr-fonts-style display-7">
+                    provaup&nbsp;</p>
+            </div>
+            <div class="col-md-6">
+                           <div class="social-list align-right">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+<!--modal-->
+<div class="modal fade" id="memberModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body" style="background-color: grey;">
+                
+                <div style="margin-left:36% " class="loader"></div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+    .cid-r3yZJLuMgC{
+        background-image:  url('provaup.com.br/sistema/public/img') !important;
+        background-size: contain;
+    }
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+    <script>
+jQuery(function($){
+    // const bckHeader = document.querySelector('.cid-r3yZJLuMgC'); 
+
+     //checar se carregou
+     $('document').ready(function(){
+        console.log(' estado ',$("select[name=uf]").val());
+
+        if($("select[name=uf]").val() != ""){
+                $ost("provaup.com.br/sistema",
+                {estado:$("select[name=uf]").val()},
+                    function(valor){
+                        $("select[name=municipio]").html(valor);
+                    }
+                );
+        }
+
+     });   
+
+    $("#tel1")
+        .mask("(99) 9999-9999?9")
+        .focusout(function (event) {  
+            var target, phone, element;  
+            target = (event.currentTarget) ? event.currentTarget : event.srcElement;  
+            phone = target.value.replace(/\D/g, '');
+            element = $(target);  
+            element.unmask();  
+            if(phone.length > 10) {  
+                element.mask("(99) 99999-999?9");  
+            } else {  
+                element.mask("(99) 9999-9999?9");  
+            }  
+        });
+    $('#data_nasc').mask("99/99");    
+    $('#form_SPCidade').hide();
+    
+    //mensagem de erro 
+    $('#mensagem').hide(); 
+    $("input#cep").change(function(){
+      var cep_code = $(this).val();
+      if( cep_code.length <= 0 ) return;
+      $.get("https://viacep.com.br/ws/"+cep_code+"/json/?callback=?",
+         function(result){
+            var result = result.replace(/\?|\)|\(|\;/g,' ');
+            result = JSONarse(result);
+            $("input#cep").val(""+result.cep);
+            $("select#estado").val( result.uf );
+            $("input#bairro").val(""+result.bairro);
+            $("input#endereco").val(""+result.logradouro);
+            var estadoSelecionado = result.uf;
+            $("input#endereco").focus();
+
+            //modificar o select de estados
+            $('#form_uf option[value='+estadoSelecionado+']').attr('selected','selected');
+            //modiicar select municipios
+            
+            $ost("provaup.com.br/sistema/indexhp/link_c/combo_municipio",
+              {estado:$("select[name=uf]").val(), dc: result.city },
+	  	        function(valor){
+                    console.log(result.city);
+                        if(result.city == 'Brasília'){
+                            $('#form_SPCidade').fadeIn(450);
+                        }else{
+                            $('#form_SPCidade').fadeOut(450); 
+                        }  
+		                    $("select[name=municipio]").html(valor);
+	            }
+	        );
+
+           //verifica se alterou o estado para outro que não seja o SP então oculte o campo cidade                     
+            if($("select[name=uf]").val()=='SP')
+            {
+             $('#conteiner_cidade').show();   // Hide div
+            }else{ 
+             $('#conteiner_cidade').hide();   // show div
+            }
+         });
+   }); 
+   //
+   $("#form_uf").change(function() {
+        
+        if($(this).val() == 'SP'){
+            $('#form_SPCidade').fadeIn(450);
+        }else{
+            $('#form_SPCidade').fadeOut(450); 
+        }
+        $ost("provaup.com.br/sistema/indexhp/link_c/combo_municipio02",
+        {estado:$("select[name=uf]").val()},
+            function(valor){
+                $("select[name=municipio]").html(valor);
+            }
+        );
+
+    });
+
+     //email
+     $("#form_email").change(function(){
+        /* em via via post para pesquisa se existe um email de mesmo nome*/
+            $ost("provaup.com.br/sistema/indexhp/link_c/pesquisar_homonimo_email_form",{email:$(this).val(),campanha:163}, function(valor){
+                if(valor == "1"){ 
+                    alert("Esse E-mail já foi Cadastrado");
+                    $("#form_email").css("border-color","red");
+                }
+            });
+     });
+
+     $("#tel1").change(function(){
+        
+        /* em via via post para pesquisa se existe um email de mesmo nome*/
+            $ost("provaup.com.br/sistema/indexhp/link_c/verificarTelefoneRepetido_form",{telefone:$(this).val(),campanha:'163',}, function(valor){
+                console.log('o valor',valor)
+                if(valor == "1"){ 
+                    alert("Telefone Já Cadastrado");
+                    $("#tel1").css("border-color","red");
+                }
+            });
+     });
+//limpar campos
+$('#resertarBotao').click(function(){
+    $('#form_uf option[value=0]').attr('selected','selected');
+    $("select[name=municipio]").html('<option value="0"> MUNICIPIOS </option>');
+    $('#form_SPCidade').hide();
+   
+});    
+ 
+  $("#data_nasc2").datepicker({
+    dateFormat: "dd/mm/yy"
+  });
+
+});
+
+</script>
+<!--Clayton template-->
+  <!-- <script src="provaup.com.br/sistema/assets/smooth-scroll/smooth-scroll.js"></script> -->
+  <!-- <script src="provaUP.com.br/sistema/assets/theme/js/script.js"></script> -->
+<!---->
+
+
+</body></html>
